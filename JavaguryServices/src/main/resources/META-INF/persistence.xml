@@ -2,12 +2,11 @@
 	<persistence-unit name="purchases" transaction-type="RESOURCE_LOCAL">
 		<class>lv.javagury.android.Purchase</class>
 		<properties>
-			<property name="hibernate.connection.driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
-			<property name="hibernate.connection.url">jdbc:derby:/home/rk13/tmp/simpleDb;create=true</property>
-			<property name="hibernate.connection.username">root</property>
+			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+			<property name="javax.persistence.jdbc.url"    value="jdbc:derby:/home/rk13/tmp/simpleDb;create=true"/>
+			<property name="javax.persistence.jdbc.user"   value="root"/>
 
-			<property name="hibernate.show_sql">true</property>
-			<property name="hibernate.dialect" value="org.hibernate.dialect.DerbyDialect" />
+			<property name="hibernate.dialect"  value="org.hibernate.dialect.DerbyDialect" />
 			<!-- property name="hibernate.hbm2ddl.auto">create</property -->
 		</properties>
 	</persistence-unit>

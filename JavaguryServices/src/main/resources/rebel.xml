@@ -2,15 +2,15 @@
 <application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
 
 	<classpath>
-		<dir name="/home/rk13/nobackup/workspaces/workspace-dojo/PuchaseService/target/classes">
+		<dir name="/home/rk13/nobackup/git-projects/javaguru-services/JavaguryServices/target/classes">
 		</dir>
-		<dir name="/home/rk13/nobackup/workspaces/workspace-dojo/PuchaseService/target/test-classes">
+		<dir name="/home/rk13/nobackup/git-projects/javaguru-services/JavaguryServices/target/test-classes">
 		</dir>
 	</classpath>
 
 	<web>
 		<link target="/">
-			<dir name="/home/rk13/nobackup/workspaces/workspace-dojo/PuchaseService/WebContent">
+			<dir name="/home/rk13/nobackup/git-projects/javaguru-services/JavaguryServices/WebContent">
 			</dir>
 		</link>
 	</web>

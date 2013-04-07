@@ -14,6 +14,7 @@ public class Purchase {
 
 	@Id
 	@XmlTransient
+	@SuppressWarnings("unused")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 

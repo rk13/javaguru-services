@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
-			<version>3.4.0.GA</version>
+			<version>4.0.0.Final</version>
 			<type>jar</type>
 		</dependency>
 		<dependency>
@@ -41,6 +41,11 @@
 			<version>1.5.8</version>
 			<type>jar</type>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-jpamodelgen</artifactId>
+			<version>1.2.0.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
